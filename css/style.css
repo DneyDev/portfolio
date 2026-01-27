@@ -454,3 +454,21 @@ p {
   box-shadow: 0 10px 30px rgba(0, 180, 216, 0.15);
   border-color: rgba(0, 180, 216, 0.35);
 }
+.lang-switch {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.lang-switch button {
+  background: transparent;
+  border: 1px solid rgba(0,180,216,0.3);
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.lang-switch button:hover {
+  background: rgba(0,180,216,0.2);
+}

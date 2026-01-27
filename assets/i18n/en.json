@@ -1,0 +1,16 @@
+{
+  "nav.about": "About",
+  "nav.stack": "Stack",
+  "nav.projects": "Projects",
+  "nav.contact": "Contact",
+
+  "hero.title": "Back-End Developer",
+  "hero.subtitle": "Focused on C, Node.js and low-level systems",
+
+  "contact.label": "Contact",
+  "contact.title": "Let's talk?",
+  "contact.text": "I'm always open to discussing new projects, opportunities or simply exchanging ideas about technology.",
+  "contact.email": "Email",
+  "contact.github": "GitHub",
+  "contact.linkedin": "LinkedIn"
+}

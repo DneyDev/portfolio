@@ -1,0 +1,16 @@
+{
+  "nav.about": Sobre,
+  "nav.stack": Stack,
+  "nav.projects": Projetos,
+  "nav.contact": Contato
+
+  "hero.title": "Desenvolvedor Back-End",
+  "hero.subtitle": "Focado em C, Node.js e sistemas de baixo nível",
+
+  "contact.label": "Contato",
+  "contact.title": "Vamos conversar?",
+  "contact.text": "Estou sempre aberto a discutir novos projetos, oportunidades ou simplesmente trocar ideias sobre tecnologia.",
+  "contact.email": "Email",
+  "contact.github": "GitHub",
+  "contact.linkedin": "LinkedIn"
+}

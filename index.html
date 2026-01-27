@@ -22,29 +22,36 @@
 <body>
 
   <!-- NAVBAR -->
+   <!-- adicionado o i18n para tradução dos itens -->
   <header class="navbar">
     <div class="container">
       <h1 class="logo">DneyDev</h1>
+      <div class="lang-switch">
+        <button onclick="loadLanguage('pt')">PT</button>
+        <button onclick="loadLanguage('en')">EN</button>
+      </div>
+
       <nav>
         <ul class="nav-links">
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#stack">Stack</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a data-i18n="nav.about" href="#sobre">Sobre</a></li>
+          <li><a data-i18n="nav.stack" href="#stack">Stack</a></li>
+          <li><a data-i18n="nav.projects" href="#projetos">Projetos</a></li>
+          <li><a data-i18n="nav.contact" href="#contato">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <!-- HERO -->
+   <!-- adicionado o i18n para tradução dos itens -->
   <section class="hero reveal">
     <div class="container">
-      <h2>
+      <h2 data-i18n="hero.title">
          Desenvolvedor focado em <span class="highlight">Back-End</span> e
          <span class="highlight">Banco de Dados</span>
       </h2>
 
-      <p>Estudante de Ciência da Computação focado em resolver problemas reais com código, 
+      <p data-i18n="hero.subtitle">Estudante de Ciência da Computação focado em resolver problemas reais com código, 
         buscando sempre soluções inovadoras.
       </p>
 
@@ -131,15 +138,16 @@
   </section>
 
   <!-- CONTATO -->
+   <!-- adicionado o i18n para tradução dos itens -->
   <section id="contato" class="section reveal contact-section">
   <div class="container">
     <div class="contact-wrapper">
 
-      <span class="section-label">Contato</span>
+      <span data-i18n="contact.label" class="section-label">Contato</span>
 
-      <h2>Vamos conversar?</h2>
+      <h2 data-i18n="contact.title">Vamos conversar?</h2>
 
-      <p class="contact-text">
+      <p data-i18n="contact.text" class="contact-text">
         Estou sempre aberto a discutir novos projetos, oportunidades
         ou simplesmente trocar ideias sobre tecnologia.
       </p>
@@ -148,19 +156,20 @@
         Enviar mensagem
       </a> -->
 
+      <!-- adicionado o i18n para tradução dos itens -->
       <div class="contact-cards">
         <a href="mailto:sidney.pe010@gmail.com" class="contact-card">
-          <span>Email</span>
-          <strong>sidney.pe010gmail.com</strong>
+          <span data-i18n="contact.email">Email</span>
+          <strong>sidney.pe010@gmail.com</strong>
         </a>
 
         <a href="https://github.com/DneyDev" target="_blank" class="contact-card">
-          <span>GitHub</span>
+          <span span data-i18n="contact.github">GitHub</span>
           <strong>github.com/DneyDev</strong>
         </a>
 
-        <a href="www.linkedin.com/in/sidneyrodrigues010" target="_blank" class="contact-card">
-          <span>LinkedIn</span>
+        <a href="https://www.linkedin.com/in/sidneyrodrigues010" target="_blank" class="contact-card">
+          <span span data-i18n="contact.linkedin">LinkedIn</span>
           <strong>Perfil Profissional</strong>
         </a>
       </div>
@@ -169,7 +178,7 @@
   </div>
 </section>
 
-
+  <script src="js/i18n.js"></script>
   <script src="js/main.js" defer></script>
 </body>
 </html>
