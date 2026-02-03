@@ -47,17 +47,13 @@
   <section class="hero reveal">
     <div class="container">
       <h2 data-i18n="hero.title">
-         Desenvolvedor focado em <span class="highlight">Back-End</span> e
-         <span class="highlight">Banco de Dados</span>
       </h2>
 
-      <p data-i18n="hero.subtitle">Estudante de Ciência da Computação focado em resolver problemas reais com código, 
-        buscando sempre soluções inovadoras.
+      <p data-i18n="hero.subtitle">
       </p>
 
       <div class="hero-buttons">
-        <a href="#projetos" class="btn primary">Ver Projetos</a>
-        <a href="#contato" class="btn secondary">Contato</a>
+        <a href="#projetos" class="btn primary" data-i18n="hero.btn">Ver Projetos</a>
       </div>
     </div>
   </section>
@@ -65,10 +61,8 @@
   <!-- Seção Sobre -->
   <section id="sobre" class="section reveal">
     <div class="container">
-      <h3>Sobre mim</h3>
-      <p>
-        Desenvolvedor com experiência em projetos acadêmicos, pessoais e hackathons,
-        com foco em Back-End, banco de dados e aplicações em C e JavaScript.
+      <h3 data-i18n="about.title"></h3> 
+      <p data-i18n="about.description">
       </p>
     </div>
   </section>
@@ -76,66 +70,22 @@
   <!-- Seção de Stacks -->
   <section id="stack" class="section reveal">
     <div class="container">
-      <h3>Stack</h3>
-      <div class="stack-grid">
-        <!-- depois a gente coloca os cards -->
-        <div class="stack-card">
-            <span>C</span>
-            <p>Linguagem de baixo nível, foco em performance e controle de memória.</p>
-        </div>
+      <h3 data-i18n="stack.title"></h3>
 
-        <div class="stack-card">
-            <span>NodeJS</span>
-            <p>JavaScript assíncrono focado em performance e aplicações back-end escaláveis.</p>
-        </div>
-
-        <div class="stack-card">
-            <span>MongoDB</span>
-            <p>
-                banco de dados NoSQL orientado a documentos, 
-                com alta escalabilidade.
-            </p>
-        </div>
-
-        <div class="stack-card">
-            <span>Git</span>
-            <p>Versionamento de código e colaboração em projetos.</p>
-        </div>
-
-        <div class="stack-card">
-            <span>JavaScript</span>
-            <p>Interatividade e comportamento dinâmico no front-end.</p>
-        </div>
-
-      </div>
+      <div id="stack-container" class="stack-grid"></div>
     </div>
   </section>
+
 
   <!-- Seção de Projetos -->
-  <section id="projetos" class="section reveal">
+  <section id="projects" class="section reveal">
     <div class="container">
-      <h3>Projetos</h3>
-      <div class="projects-grid">
-        <!-- cards dos projetos -->
-         <div class="project-card">
-             <h4>Gerenciador de Arquivos TCP/IP</h4>
-             <p>
-                 sistema cliente-servidor em C usando Winsock para permitir listagem, envio, download e remoção de arquivos remotamente via TCP, com suporte a múltiplas conexões simultâneas.
-             </p>
+      <h3 data-i18n="projects.title"></h3>
 
-         <div class="project-stack">
-             <span>C</span>
-            
-         </div>
-
-         <div class="project-links">
-             <a href="#" target="_blank">GitHub</a>
-         </div>
-        </div>
-
-      </div>
+      <div id="projects-container" class="projects-grid"></div>
     </div>
   </section>
+
 
   <!-- CONTATO -->
    <!-- adicionado o i18n para tradução dos itens -->
@@ -178,6 +128,8 @@
   </div>
 </section>
 
+  <script src="js/projects.js"></script>
+  <script src="js/stacks.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/main.js" defer></script>
 </body>
