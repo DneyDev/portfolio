@@ -50,6 +50,16 @@ p {
   max-width: 700px;
 }
 
+.section {
+  padding: 80px 0;
+  position: relative;
+}
+
+.section:nth-child(even) {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+
 /* -- NAVBAR -- */
 
 .navbar {
@@ -243,28 +253,44 @@ p {
   padding: 2rem 1.5rem;
   border-radius: 16px;
   border: 1px solid rgba(56, 189, 248, 0.15);
-  transition: all 0.3s ease;
+  transition:
+  transform 0.3s ease,
+  box-shadow 0.3s ease,
+  border-color 0.3s ease;
   text-align: center;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .stack-card span {
   display: block;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--primary);
+  letter-spacing: 0.5px;
   margin-bottom: 1rem;
 }
 
 .stack-card p {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
   color: var(--muted);
 }
 
 .stack-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+  box-shadow:
+    0 20px 40px rgba(56, 189, 248, 0.2);
   border-color: rgba(56, 189, 248, 0.4);
 }
+
 /* -- Animação do Scroll -- */
 
 .reveal {
@@ -363,6 +389,38 @@ p {
   }
 
 }
+@media (hover: none) {
+  .stack-card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
+
+/*-- ajuste para celulares menores --*/
+@media (max-width: 480px) {
+  .stack-grid {
+    gap: 1rem;
+  }
+
+  .stack-card {
+    padding: 1.2rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .stack-card {
+    padding: 1.5rem 1.2rem;
+  }
+
+  .stack-card span {
+    font-size: 1.2rem;
+  }
+
+  .stack-card p {
+    font-size: 0.8rem;
+  }
+}
+
 @media (max-width: 768px) {
 
   .project-card {
