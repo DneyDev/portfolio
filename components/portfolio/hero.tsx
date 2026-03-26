@@ -57,14 +57,16 @@ export function Hero() {
 
       <div className="relative z-10 w-full max-w-4xl mx-auto px-4 sm:px-6 text-center">
         <div className="space-y-6 sm:space-y-8">
-          {/* Greeting */}
-          <p className="text-primary font-mono text-xs sm:text-sm tracking-widest uppercase break-words">
+          {/* Texto de boas-vindas */}
+         {/* <p className="text-primary font-mono text-xs sm:text-sm tracking-widest uppercase break-words">
             {"// Olá, seja bem-vindo ao meu portfólio"}
-          </p>
+          </p> 
+          */}
+
 
           {/* Name */}
           <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-balance">
-            <span className="text-foreground">Sidney</span>
+            <span className="text-foreground">Sidney Rodrigues</span>
             <span className="text-primary">.</span>
           </h1>
 
