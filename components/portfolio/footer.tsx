@@ -82,8 +82,7 @@ export function Footer() {
             &copy; {currentYear} Sidney (DneyDev). Todos os direitos reservados.
           </p>
           <p className="text-muted-foreground text-xs sm:text-sm flex items-center gap-1">
-            Feito{" "}usando
-            Next.js e TailwindCSS
+            Para mais informações, entrar em contato
           </p>
         </div>
       </div>
