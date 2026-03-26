@@ -35,7 +35,7 @@ export function Footer() {
             </a>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
               Desenvolvedor focado em Web e Back-End, com base sólida em lógica
-              de programação e boas práticas.
+              de programação e boas práticas de código.
             </p>
           </div>
 
@@ -82,8 +82,7 @@ export function Footer() {
             &copy; {currentYear} Sidney (DneyDev). Todos os direitos reservados.
           </p>
           <p className="text-muted-foreground text-xs sm:text-sm flex items-center gap-1">
-            Feito com{" "}
-            <Heart className="w-3 h-3 sm:w-4 sm:h-4 text-primary fill-primary" /> usando
+            Feito{" "}usando
             Next.js e TailwindCSS
           </p>
         </div>
