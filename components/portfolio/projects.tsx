@@ -23,46 +23,37 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "API REST Node.js",
+    title: "Equipiada Atlas",
     description:
-      "API REST com autenticação JWT, rotas protegidas, validação de dados e conexão com banco relacional via Prisma.",
-    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop",
-    tags: ["Node.js", "Express", "SQL", "REST API"],
-    category: "Back-End",
-    github: "https://github.com/DneyDev",
+      "Projeto colaborativo para desenvolvimento de plataforma de armazenamento de informações de jogos do usuário.",  
+    image: "https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/twinkl-video-games-2_ver_1.jpg",
+    tags: ["HTML", "CSS", "JavaScript", "MongoDB"],
+    category: "Web",
+    github: "https://github.com/rober122pst/equipiada-atlas",
     featured: true,
   },
   {
     id: 3,
-    title: "Landing Page Responsiva",
+    title: "SMCP Obras",
     description:
-      "Landing page moderna e responsiva, com foco em performance, acessibilidade e boas práticas de HTML/CSS.",
-    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&h=600&fit=crop",
+      "Site empresarial feito sob encomenda para empresa do ramo da Construção Civil.",
+    image: "https://aureaescolavirtual.com.br/uploads/_thumb/cedoc_doc_2016551/img2016551_15trvqg59wo1t4leqmn55t3g4x4f7gwr46vg8zz32b41mzm5b1en34m90u5w88gfr1qx2o0989pvcvv7jwymo8zi85wwm8j9s2gt.jpg",
     tags: ["HTML", "CSS", "JavaScript"],
     category: "Web",
-    github: "https://github.com/DneyDev",
+    github: "https://github.com/DneyDev/SMCP_Project",
   },
   {
     id: 4,
-    title: "Sistema de Tarefas",
+    title: "Gerenciador de Arquivos TCP-IP",
     description:
-      "Aplicação fullstack de gerenciamento de tarefas com CRUD completo, autenticação e interface limpa.",
+      "Aplicação back-end para projeto acadêmico de gerenciamento de tarefas com CRUD completo, autenticação e interface limpa.",
     image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
-    tags: ["React", "Node.js", "SQL", "REST API"],
-    category: "Fullstack",
-    github: "https://github.com/DneyDev",
+    tags: ["C"],
+    category: "Back-End",
+    github: "https://github.com/DneyDev/Gerenciador-de-Arquivos-TCP-IP",
     featured: true,
   },
-  {
-    id: 5,
-    title: "Script de Automação Python",
-    description:
-      "Script em Python para automação de tarefas repetitivas, manipulação de arquivos e geração de relatórios.",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=600&fit=crop",
-    tags: ["Python", "Automação", "CLI"],
-    category: "Back-End",
-    github: "https://github.com/DneyDev",
-  },
+  
 ]
 
 export function Projects() {
