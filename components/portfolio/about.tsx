@@ -41,7 +41,7 @@ export function About() {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Sou o Sidney, desenvolvedor com foco em Web e Back-End. Acredito
+                Sou Sidney, desenvolvedor com foco em Back-End. Acredito
                 que a fundação de qualquer bom software começa pelo domínio da
                 lógica e da clareza do código, não apenas pelas ferramentas.
               </p>
