@@ -18,7 +18,7 @@ const skillCategories = [
     name: "Back-End",
     skills: [
       { name: "Node.js", level: 75 },
-      { name: "Python", level: 72 },
+      { name: "MongoDB", level: 72 },
       { name: "SQL", level: 70 },
       { name: "REST API", level: 78 },
       { name: "Git", level: 85 },
@@ -45,13 +45,8 @@ const techStack = [
   "Node.js",
   "Python",
   "SQL",
-  "Git",
-  "GitHub",
-  "TailwindCSS",
-  "REST API",
-  "Linux",
-  "VS Code",
-  "Figma",
+  "MongoDB",
+  "Git/GitHub",
 ]
 
 export function Skills() {
@@ -150,7 +145,7 @@ export function Skills() {
                 </div>
                 <div className="text-center">
                   <div className="text-2xl sm:text-3xl font-bold text-primary">3+</div>
-                  <div className="text-xs sm:text-sm text-muted-foreground">Anos Est.</div>
+                  <div className="text-xs sm:text-sm text-muted-foreground">Anos Estudo e Prática.</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl sm:text-3xl font-bold text-primary">100%</div>
