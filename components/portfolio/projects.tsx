@@ -6,18 +6,18 @@ import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { ProjectCard, type Project } from "./project-card"
 
-const categories = ["Todos", "Web", "Back-End", "Fullstack"]
+const categories = ["Todos", "Web", "Back-End", "Fullstack", "DataBase"]
 
 const projects: Project[] = [
   {
     id: 1,
-    title: "Portfólio Pessoal",
+    title: "Banking App",
     description:
-      "Portfólio interativo com design moderno e tech, construído com Next.js, TailwindCSS e animações em React.",
-    image: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&h=600&fit=crop",
-    tags: ["Next.js", "TypeScript", "TailwindCSS", "React"],
-    category: "Web",
-    github: "https://github.com/DneyDev",
+      "Sistema bancário CLI em Java com arquitetura em camadas para aprofundamento de estudos em Java.",
+    image: "https://www.zoop.com.br/_next/image?url=https%3A%2F%2Fzoop.blog%2Fwp-content%2Fuploads%2F2025%2F07%2Fquais-servicos-podem-ser-oferecidos-baas.png&w=1920&q=75",
+    tags: ["Java"],
+    category: "Back-End",
+    github: "https://github.com/DneyDev/Banking-App",
     demo: "#",
     featured: true,
   },
